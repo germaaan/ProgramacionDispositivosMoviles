@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/germaaan/proyectos/PruebaPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/germaaan/proyectos/PruebaPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-060156f053b3a620239fbc01b77464de9aea87d2.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PruebaPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/germaaan/proyectos/PruebaPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-a4724ed49a037b5a6b2aaab77e51ed1844090901.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PruebaPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/germaaan/proyectos/PruebaPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-9395cb7fa5471d4411e2cbacc021a47b0979bfae.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/home/germaaan/proyectos/PruebaPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-76293f5fa0cb6ff43ecc920f844580506fd5d1a6.jar" />
+    </item>
+
+</items>

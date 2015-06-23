@@ -1,2 +1,2 @@
-# PruebaPosicionamiento
-Breve tutorial sobre posicionamiento en Android para la asignatura de Programación de Dispositivos Móviles
+# Programación de Dispositivos Móviles
+Material de la asignatura Programación de Dispositivos Móviles
