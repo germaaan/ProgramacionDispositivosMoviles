@@ -2,32 +2,165 @@
 <items version="2" >
 
     <item
-        jar="/home/germaaan/proyectos/PruebaPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
-        <dex dex="/home/germaaan/proyectos/PruebaPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-060156f053b3a620239fbc01b77464de9aea87d2.jar" />
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-4066e15576568aceea0fbf42f88c642cc9ba25c1.jar" />
     </item>
     <item
-        jar="/home/germaaan/proyectos/PruebaPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
-        <dex dex="/home/germaaan/proyectos/PruebaPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-a4724ed49a037b5a6b2aaab77e51ed1844090901.jar" />
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-3623874d380fa6288457dcaa6fff38c99ddc0ef4.jar" />
     </item>
     <item
-        jar="/home/germaaan/proyectos/PruebaPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/home/germaaan/proyectos/PruebaPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-9395cb7fa5471d4411e2cbacc021a47b0979bfae.jar" />
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-72f1bf9579994ce370cee94957766c520bf51d64.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-1f9b018d0adfcf9aae9eb9f2d969a80115684388.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-be0b2f30b25e2449d0434c5839928d54a8ed6e8a.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-8ff2f1b505b9b2d9eab1f701d684ee933c9a9311.jar" />
     </item>
     <item
         jar="/home/germaaan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/home/germaaan/proyectos/PruebaPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-76293f5fa0cb6ff43ecc920f844580506fd5d1a6.jar" />
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-76293f5fa0cb6ff43ecc920f844580506fd5d1a6.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-f96eeb05e43585b6fd5f2e6d642106863e681b8f.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-316099b6241450b5fb1a02ff0cee602ba76cec2f.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-508de432f622bb7f32ad7a830ab805d245a80297.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-4ea8b252c53aa3587d0885ad9d8bf200238c5359.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-1c6c148a9d7febccdb3dfbf38865bb933554dfb5.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-52d236bb1187a9325b5fbb65fe2fb436bc3d043b.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-1f664a448d0b371a16b931fdc747abf67f597801.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-cf0f74013ea518e59a3dcf32fa0b308e2023c50b.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-06930c36f4a1899ff6e1c18d04003cd6497c0c30.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-6b2d650931142c1ea36754a566312481b1b81c2e.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-7e66dd0f51c5deaa082dd144c64e342442870e3e.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-f32cd6515e5fc958ca08ae2dc5d267bc4017166c.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-e950929e1757511d3c71f7e9346c601ac3fac254.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-c4609200cc361e11bead00dc67f04bd5aecc485c.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-92ef905ad925a5023306332edfa8346e131d64b6.jar" />
+    </item>
+    <item
+        jar="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/home/germaaan/proyectos/PDM/TutorialPosicionamiento/AndroidStudioProject/app/build/intermediates/pre-dexed/debug/classes-b31d20b41c750192948ba59014ccc78e4e22f647.jar" />
     </item>
 
 </items>

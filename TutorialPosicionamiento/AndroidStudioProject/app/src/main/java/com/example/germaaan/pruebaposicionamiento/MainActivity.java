@@ -11,6 +11,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
 
 public class MainActivity extends ActionBarActivity implements LocationListener {
     private static final String MAIN_ACTIVITY = "MainActivity";
@@ -22,6 +28,9 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
 
     private LocationManager locationManager = null;
     private Location coordenadas = null;
+
+    private LatLng posicion = null;
+    private GoogleMap mapa = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,48 +47,37 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
 
             if (estadoGPS) {
                 if (this.coordenadas == null) {
-                    this.locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, this);
-
-                    if (this.locationManager != null) {
-                        this.locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 1000, 0, this);
-                        //this.coordenadas = this.locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-                    }
+                    this.locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 100, this);
+                } else {
+                    this.coordenadas = this.locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
                 }
             } else if (estadoRed) {
-                this.locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, this);
-
-                if (this.locationManager != null) {
-                    this.locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 1000, 0, this);
-                    //this.coordenadas = this.locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+                if (this.coordenadas == null) {
+                    this.locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 100, this);
+                } else {
+                    this.coordenadas = this.locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
                 }
+            } else {
+                Toast.makeText(this, "GPS y conexión de red desactivados", Toast.LENGTH_SHORT).show();
             }
         } catch (Exception e) {
             Log.e(MainActivity.MAIN_ACTIVITY, "Error obteniendo coordenadas: " + e.getMessage());
         }
+    }
 
-        if (this.coordenadas != null) {
-            this.latitud = coordenadas.getLatitude();
-            this.longitud = coordenadas.getLongitude();
-
-            Toast.makeText(this, "Coordenadas: " + this.latitud + "," + this.longitud, Toast.LENGTH_SHORT).show();
-        } else {
-            Toast.makeText(this, "No se han podido obtener las coordenadas.", Toast.LENGTH_SHORT).show();
-        }
+    public void detenerActualización(View view) {
+        this.locationManager.removeUpdates(this);
     }
 
     @Override
     public void onLocationChanged(Location location) {
-        this.actualizarEstadoGPS();
-        this.actualizarEstadoConexionRed();
+        this.coordenadas = location;
 
-        if (this.coordenadas != null) {
-            this.latitud = coordenadas.getLatitude();
-            this.longitud = coordenadas.getLongitude();
+        this.latitud = this.coordenadas.getLatitude();
+        this.longitud = this.coordenadas.getLongitude();
 
-            Toast.makeText(this, "Nueva ubicación: " + this.latitud + "," + this.longitud, Toast.LENGTH_SHORT).show();
-        } else {
-            Toast.makeText(this, "No se han podido obtener las coordenadas.", Toast.LENGTH_SHORT).show();
-        }
+        Toast.makeText(this, "Coordenadas: " + this.latitud + "," + this.longitud, Toast.LENGTH_SHORT).show();
+        this.dibujarMapa();
     }
 
     @Override
@@ -112,5 +110,15 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
 
     private void actualizarEstadoConexionRed() {
         this.estadoRed = this.locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+    }
+
+    private void dibujarMapa() {
+        this.posicion = new LatLng(this.coordenadas.getLatitude(), this.coordenadas.getLongitude());
+
+        this.mapa = ((MapFragment) getFragmentManager().findFragmentById(R.id.fragmentMapa)).getMap();
+        this.mapa.clear();
+
+        this.mapa.addMarker(new MarkerOptions().position(this.posicion).title("Estás aquí!"));
+        this.mapa.animateCamera(CameraUpdateFactory.newLatLngZoom(this.posicion, 12.0f));
     }
 }
