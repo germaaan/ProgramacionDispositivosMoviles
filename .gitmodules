@@ -1,0 +1,3 @@
+[submodule "Camino"]
+	path = Camino
+	url = git://github.com/PSanchezR/Camino.git
