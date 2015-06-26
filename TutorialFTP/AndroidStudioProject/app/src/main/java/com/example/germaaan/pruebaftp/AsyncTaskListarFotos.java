@@ -20,7 +20,6 @@ public class AsyncTaskListarFotos extends AsyncTask<Object, Void, ArrayList<Stri
     public ArrayList<String> doInBackground(Object... params) {
         int reply;
         ArrayList<String> listado = null;
-        BufferedInputStream bis = null;
 
         this.cliente = new FTPClient();
 

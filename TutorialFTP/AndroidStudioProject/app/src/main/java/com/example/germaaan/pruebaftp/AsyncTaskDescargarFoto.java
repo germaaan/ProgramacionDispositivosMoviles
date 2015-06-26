@@ -35,7 +35,6 @@ public class AsyncTaskDescargarFoto extends AsyncTask<String, Void, Boolean> {
                 this.cliente.setFileType(org.apache.commons.net.ftp.FTP.BINARY_FILE_TYPE);
                 this.cliente.enterLocalPassiveMode();
 
-
                 String archivoRemoto = archivos[0];
                 File archivoDescargado = new File(MainActivity.RUTA + archivoRemoto);
                 out = new BufferedOutputStream(new FileOutputStream(archivoDescargado));

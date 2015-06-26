@@ -26,7 +26,6 @@ public class MainActivity extends ActionBarActivity {
 
     private static final String MAIN_ACTIVITY = "MainActivity";
 
-
     private String nombreArchivo = null;
     private boolean fotoSubida = false;
     private boolean estadoRed = false;
