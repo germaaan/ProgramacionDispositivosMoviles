@@ -13,14 +13,10 @@
     <!-- Permiso para guardar datos en el almacenamiento externo -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <permission
-        android:name="com.dev.lin.camino.permission.MAPS_RECEIVE"
-        android:protectionLevel="signature" />
-
     <!-- Añade requerimiento de OpenGL ES v2 para renderizar los mapas -->
     <uses-feature
         android:glEsVersion="0x00020000"
-        android:required="true"/>
+        android:required="true" />
 
     <application
         android:allowBackup="true"

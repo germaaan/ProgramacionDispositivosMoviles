@@ -42,8 +42,8 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
         try {
             this.locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
-            this.actualizarEstadoGPS();
-            this.actualizarEstadoConexionRed();
+            this.estadoGPS = this.locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+            this.estadoRed = this.locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
 
             if (estadoGPS) {
                 if (this.coordenadas == null) {
@@ -102,14 +102,6 @@ public class MainActivity extends ActionBarActivity implements LocationListener 
     @Override
     public void onProviderDisabled(String s) {
         Toast.makeText(this, "El proveedor de localización " + s + " ha sido desactivado.", Toast.LENGTH_SHORT).show();
-    }
-
-    private void actualizarEstadoGPS() {
-        this.estadoGPS = this.locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
-    }
-
-    private void actualizarEstadoConexionRed() {
-        this.estadoRed = this.locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
     }
 
     private void dibujarMapa() {
