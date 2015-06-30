@@ -12,5 +12,5 @@ Pablo Sánchez Robles
 - [Tutorial sobre **conexión FTP** en Android](TutorialPosicionamiento/TutorialPosicionamiento.pdf)
 - [Código de la aplicación de ejemplo del tutorial de conexión FTP](TutorialPosicionamiento/AndroidStudioProject)
 - [Tutorial sobre **notificaciones** en **Android Wear**](TutoriaNotifacionesAndroidWear/TutoriaNotifacionesAndroidWear.pdf)
-- [Código de la aplicación de ejemplo del tutorial de notificaciones android wear](TutoriaNotificacionesAndroidWear/ProyectoNotificaciones)
+- [Código de la aplicación de ejemplo del tutorial de notificaciones android wear](TutoriaNotifacionesAndroidWear/ProyectoNotificaciones)
 - [Tutorial sobre **instalación de Android Studio** en **MacOS**](TutorialInstalacionAndroidStudioMacOS/TutorialInstalacionAndroidStudioMacOS.pdf)
